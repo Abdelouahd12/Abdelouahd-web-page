@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>my third webpage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,
+opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:
+wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles.CSS">
+</head>
+
+<body>
+    <div><img id="logo" src="https://jovian.com/jovian_logo.svg" alt="jovian_logo"></div>
+    <div><img id="banner" src="banner.jpg"></div>
+    <div>
+        <h1>About jovian</h1>
+    </div>
+    <div id="About">
+        <div id="descr">
+            <p marging_top="0">At Jovian, we're on a mission to build
+                the world's most highly reputed technical
+                university, and we're building it completely
+                online. We offer several beginner friendly
+                courses that are taken by <b>300,000+</b> registered
+                users.</p>
+            <p>We also offer 2 industry-focused bootcamps:
+            <ol>
+                <a href="https://www.jovian.com/full-stack-developer-bootcamp">
+                    <li>Jovian Full Stack Developer Bootcamp</li>
+                </a>
+                <a href="https://www.jovian.com/data-science-bootcamp">
+                    <li>Jovian Data Science Bootcamp</li>
+                </a>
+            </ol>
+            </p>
+        </div>
+        <div id="image">
+            <img id="team" src="team.jpg" alt="teamimage">
+        </div>
+    </div>
+    <div>
+        <h2>jobs opportunities</h2>
+        <table id="jobs-table">
+            <tr class="jobs-header-row">
+                <th rowspan="2">job Title</th>
+                <th colspan="2">Location</th>
+                <th rowspan="2"> Salary</th>
+                <th rowspan="2">Posted On</th>
+            </tr>
+            <tr class="jobs-header-row">
+                <th>city</th>
+                <th>country</th>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Frontend Developer</td>
+                <td>bengaluru</td>
+                <td>india</td>
+                <td>1200000</td>
+                <td>Mar3, 2023</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Full Stack Developer</td>
+                <td>New Delhi</td>
+                <td>India</td>
+                <td>15,00,000</td>
+                <td>Feb 1, 2023</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Data Scientist</td>
+                <td>San Francisco</td>
+                <td> USA</td>
+                <td>175,000</td>
+                <td>Dec 22, 2022</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>ML Engineer</td>
+                <td colspan="2">Remote</td>
+                <td>80,000</td>
+                <td>Sep 19, 2022</td>
+            </tr>
+        </table>
+        <div id="application">
+            <h2>submit your application</h2>
+            <form id="application-form" 
+            action="https://formbold.com/s/3jgG0" method="post"
+            enctype="multipart/form-data">
+            <div>
+                <label for="name">Username</label><br>
+                <input type="text" id="name" name="name" required placeholder="abdo belmouidi">
+            </div>
+            <div>
+                <label for="email">email</label><br>
+                <input type="email" id="émail" name="émail" required placeholder="Abdobelm@example.com">
+            </div>
+            <div>
+                <label for="phone">phone</label><br>
+                <input type="teL" id="phone" name="phone" required placeholder="+222606778745">
+            </div>
+            <div>
+                <label for="date">date of birth</label><br>
+                <input type="date" id="date of birth" required>
+            </div>
+            <div>
+            <label for="position">position applied for</label><br>
+            <select id="position" name="position applied" required>
+                <option value="">select position</option>
+                <option value="fronted Developer">fronted Developer</option>
+                <option value="full stack Developer">full stack Developer</option>
+                <option value="data scientist">data scientist</option>
+                <option value="ML Engineer">ML Engineer</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="resume">upload resume</label><br>
+            <input type="file" id="resume" name="resume" accept=".
+            pdf,.doc,.docx" required>
+        </div>
+        <div class="form-group">
+            <label for="coverletter">Cover Letter</label><br>
+            <textarea id="coverletter" name="coverletter" rows="5" required placeholder="Explain what makes you suitable for the job.."></textarea>
+        </div>
+        <div class="form-group">
+        <label for="terms">
+            <input type="checkbox" name="terms" id="terms" required>
+        I agree to the terms and conditions
+        </label>
+        </div>
+            <div class="form-group">
+                <input type="submit" value="submit">
+            </div>
+        </form>
+        </div>
+
+        <div id="floater">
+            <ul id="floater_links">
+                <a href="https://jovian.com/learn" target="_blank">
+                    <li>courses</li>
+                </a>
+                <a href="https://jovian.com/learn" target="_blank">
+                    <li>programes</li>
+                </a>
+                <a href="https://www.youtube.com/@jovianhq" target="_blank">
+                    <li>youtube</li>
+                </a>
+            </ul>
+            <div id="c_jolian">© 2024_Jovian</div>
+        </div>
+    </div>
+</body>
+
+</html>
